@@ -9,9 +9,50 @@ main{
 }
 main > article{
     flex: 2;
-    overflow-y: auto;
+    /* overflow-y: auto; */
 }
 main > aside{
     flex: 1;
-    overflow-y: auto;
+    /* overflow-y: auto; */
+}
+
+
+main {
+    background-color: rgb(4, 49, 65);
+}
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+footer{
+    padding: 20px;
+    border: 1px solid black;
+
+}
+
+body{
+    border: 1px solid black;
+}
+
+article{
+    background-image: linear-gradient(90deg, #413e77 0%,
+     #3939e0 35%,
+     #00d4ff 100%);
+    color: white;
+    font-family:'Franklin Gothic Medium',
+     'Arial Narrow', 
+    Arial, sans-serif
+}
+
+img{
+    width: 100%;
+}
+
+img:hover{
+    -webkit-transform: rotate(15deg) scale(1.4);
+	transform: rotate(15deg) scale(1.4);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
 }
